@@ -26,8 +26,8 @@ stages:
         version: '$(dotnetSdkVersion)'
 
     - task: NodeTool@0
-    inputs:
-      versionSpec: '12.13.1'
+      inputs:
+        versionSpec: '12.13.1'
 
     - task: CmdLine@2
       inputs:
